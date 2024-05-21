@@ -2,18 +2,33 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #A4FFF7;
 }
 
-header {
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0 4px;
+    font-size: 1.3rem;
+    position: sticky;
+    background-color: azure;
+    height: 100px;
+}
+
+.navbar-container {
     display: flex;
     justify-content: space-between;
-    padding: 0 4px;
     align-items: center;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 4px;
 }
 
-.nav-links {
-    flex: 1;
-    text-align: center;
-    width: 100%
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }

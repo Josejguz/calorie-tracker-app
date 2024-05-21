@@ -4,32 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CalCount - Calorie Tracker</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/index.1303bb05.css">
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <div class="nav-links">
-                    <li><a href="/">CalCount</a></li>
-                    <li><a href="./about.html">About</a></li>
-                    <li><a href="./contact.html">Contact</a></li>
-                    <li><a href="./profile.html">Profile</a></li>
-                    <li><a href="./login.html">Login</a></li>
+        <nav class="navbar">
+            <div class="navbar-container">
+                <div class="nav-home">
+                    <a href="/">CalCount</a>
                 </div>
-            </ul>
+                <ul class="nav-menu">
+                    <li><a href="/up_/templates/Profile.html"><i class="fa-solid fa-circle-user fa-xl"></i></a></li>
+                    <li><a href="/up_/templates/Login.html">Login</a></li>
+                </ul>
+                </div>
+            
         </nav>
     </header>
+    
     <main>
         <div class="dashboard">
             <canvas id="calorie-chart"></canvas>
         </div>
         <div class="journal">
-            <div id="breakfast">
+            <div class="meal-entry" id="breakfast">
                 <h2>Breakfast</h2>
                 <button id="addBreakfast">Add</button>
             </div>
-            <div id="lunch">
+            <div class="meal-entry" id="lunch">
                 <h2>Lunch</h2>
                 <button id="addLunch">Add</button>
             </div>
@@ -46,7 +48,8 @@
     <footer>
         <p>&copy; 2024 CalCount</p>
     </footer>
-    <script src="./src/app.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <script src="/index.0641b553.js" defer=""></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js" defer=""></script>
+    <script src="https://kit.fontawesome.com/bddc24d887.js" crossorigin="anonymous"></script>
 </body>
 </html>
