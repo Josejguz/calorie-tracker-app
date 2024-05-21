@@ -11,11 +11,11 @@
         <nav class="navbar">
             <div class="navbar-container">
                 <div class="nav-home">
-                    <a href="/">CalCount</a>
+                    <a href="/" id="home">CalCount</a>
                 </div>
                 <ul class="nav-menu">
-                    <li><a href="../templates/Profile.html"><i class="fa-solid fa-circle-user fa-xl"></i></a></li>
-                    <li><a href="../templates/Login.html">Login</a></li>
+                    <li class="nav-element" ><a href="../templates/Login.html" id="login">Login</a></li>
+                    <li class="nav-element"><a href="../templates/Profile.html" id="profile" ><i class="fa-solid fa-circle-user fa-xl"></i></a></li>
                 </ul>
                 </div>
             </div>
@@ -24,22 +24,22 @@
     
     <main>
         <div class="dashboard">
-            <canvas id="calorie-chart"></canvas>
+            <canvas id="calorie-chart" class="dash-chart"></canvas>
         </div>
         <div class="journal">
-            <div class="meal-entry" id="breakfast">
+            <div class="meal-category" id="breakfast">
                 <h2>Breakfast</h2>
                 <button id="addBreakfast">Add</button>
             </div>
-            <div class="meal-entry" id="lunch">
+            <div class="meal-category" id="lunch">
                 <h2>Lunch</h2>
                 <button id="addLunch">Add</button>
             </div>
-            <div id="dinner">
+            <div id="dinner" class="meal-category">
                 <h2>Dinner</h2>
                 <button id="addDinner">Add</button>
             </div>
-            <div id="snacks">
+            <div id="snacks" class="meal-category">
                 <h2>Snacks</h2>
                 <button id="addSnacks">Add</button>
             </div>
