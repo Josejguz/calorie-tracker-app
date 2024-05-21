@@ -2,4 +2,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #A4FFF7;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4px;
+    align-items: center;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: center;
+    width: 100%
 }
