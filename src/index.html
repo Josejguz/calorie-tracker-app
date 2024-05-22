@@ -29,22 +29,41 @@
                 <canvas id="calorie-chart" ></canvas>
             </div> 
         </div>
+        <br/>
         <div class="journal">
-            <div class="meal-category" id="breakfast">
+            <div class="journal-header">
+                <i class="fa-solid fa-calendar-days fa-lg" style="color: #1dbcd6;"></i>
+                <h2>Today</h2>
+                <button id="previous-day-btn"><i class="fa-solid fa-chevron-left fa-lg" style="color: #1dbcd6;"></i></button>
+                <button id="next-day-btn"><i class="fa-solid fa-chevron-right fa-lg" style="color: #1dbcd6;"></i></button>
+            </div>
+            <br/>
+            <div class="meal-category" >
                 <h2>Breakfast</h2>
-                <button id="addBreakfast">Add</button>
+                <div class="meal-entries" id="breakfast-entries">
+                </div>
+                <button id="addBreakfast" class="add-entry-btn">Add <i class="fa-solid fa-plus "></i></button>
             </div>
-            <div class="meal-category" id="lunch">
+            <div class="meal-category" >
                 <h2>Lunch</h2>
-                <button id="addLunch">Add</button>
+                <div class="meal-entries" id="lunch-entries">
+
+                </div>
+                <button id="addLunch" class="add-entry-btn">Add <i class="fa-solid fa-plus "></i></button>
             </div>
-            <div id="dinner" class="meal-category">
+            <div class="meal-category">
                 <h2>Dinner</h2>
-                <button id="addDinner">Add</button>
+                <div class="meal-entries" id="dinner-entries">
+
+                </div>
+                <button id="addDinner" class="add-entry-btn">Add <i class="fa-solid fa-plus "></i></button>
             </div>
-            <div id="snacks" class="meal-category">
+            <div class="meal-category">
                 <h2>Snacks</h2>
-                <button id="addSnacks">Add</button>
+                <div class="meal-entries" id="snacks-entries">
+
+                </div>
+                <button id="addSnacks" class="add-entry-btn">Add <i class="fa-solid fa-plus "></i></button>
             </div>
         </div>
     </main>
