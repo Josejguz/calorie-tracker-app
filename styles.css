@@ -13,8 +13,9 @@
     padding: 0 4px;
     font-size: 1.3rem;
     position: sticky;
-    background-color: azure;
+    background: linear-gradient(to bottom, #54F0F7, #FFFFFF);
     height: 100px;
+    color:#ffffff;
 }
 
 .navbar-container {
@@ -39,11 +40,35 @@
     justify-content: center;
     align-items: center;
     font-weight: bold;
-    text-decoration: none;
+    flex-direction: column;
     border-style: solid;
     border-width: 3px;
     border-color: #1dbcd6;
     border-radius: 20px;
+    width: 65%;
+}
+dashboard:hover {
+    background-color: #E7EBEC;
+}
+
+.dashboard h1 {
+    color: #1dbcd6;
+    font-size: 2rem;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+
+
+.dash-chart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -88,6 +113,7 @@
 
 #profile {
     text-decoration: none;
+    color:#ffffff;
 }
 
 #login:hover {
