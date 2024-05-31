@@ -11,6 +11,7 @@ const addLunchEntry = document.getElementById('add-lunch');
 const addDinnerEntry = document.getElementById('add-dinner');
 const addSnackEntry = document.getElementById('add-snack');
 
+/*
 addBreakfastEntry.addEventListener('click', () => {
     breakfastEntries.innerHTML += `
         <div class="entry">
@@ -19,6 +20,7 @@ addBreakfastEntry.addEventListener('click', () => {
         </div>
     `;
 });
+*/
 
 
 
